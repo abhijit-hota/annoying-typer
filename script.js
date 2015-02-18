@@ -54,7 +54,7 @@ $(document).keydown(function (event) {
       }else{
         var randText = texts[Math.floor(Math.random() * texts.length)];
         //print randText.img, randText.eng && randText.span object selections on each keydown
-        console.innerHTML+=("&nbsp;" + randText.img + "&nbsp;&nbsp;"+ randText.eng + "<br>"+ "&nbsp;"+ randText.span +"<span class='blink'>_</span></p>" );
+        console.innerHTML+=("&nbsp;" + randText.img + "&nbsp;&nbsp;"+ randText.eng + "</br>"+ "&nbsp;"+ randText.span +"<span class='blink'>_</span></p>" );
         console.innerHTML+=("  " + randText + "<span class='blink'>_</span></p>" )
       }
   window.scrollBy(0, 50);
