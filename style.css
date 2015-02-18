@@ -1,0 +1,26 @@
+@import "compass/css3";
+body{
+  background: #000;
+}
+#anything{
+  margin:50px;
+  color: #00FF00;
+  font-family: monospace;
+  font-size:16px;
+}
+.blink{
+  color: #00FF00;
+  font-family: monospace;
+  font-size:16px;
+}
+.salutation{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color:green;
+  font-family: monospace;
+  font-size:16px;
+  a{
+    color:green;
+  }
+}
